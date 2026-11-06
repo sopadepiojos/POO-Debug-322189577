@@ -42,7 +42,7 @@ class Perro extends Animal {
   }
 
   hacerSonido() {
-    console.log(this.#nombre + " (" + this.#raza + ") dice: Guau");
+    console.log(this.getNombre() + " (" + this.#raza + ") dice: Guau");
   }
 }
 
